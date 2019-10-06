@@ -1,0 +1,32 @@
+@import 'styles/variables';
+
+.link {
+    padding: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    a {
+        color: $link-color;
+        &:hover {
+            color: $link-hover-color;
+            text-decoration: none;
+        }
+    }
+}
+
+.logo {
+    max-height: 200px;
+    display: flex;
+}
+
+.header {
+    display: inline-flex;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 50px;
+}

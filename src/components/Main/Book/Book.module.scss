@@ -1,0 +1,30 @@
+@import 'styles/variables';
+
+.item {
+    padding: 30px;
+    &:nth-child(odd) {
+        background-color: $second-item-color;
+    }
+}
+
+.title {
+    font-weight: bold;
+}
+
+.description {
+    font-style: italic;
+}
+
+.authors {
+    font-weight: bold;
+}
+
+.publishedDate {
+    margin-top: 20px;
+}
+
+.emptyImg {
+    background-color: $empty-logo-color;
+    height: 182px;
+    width: 128px;
+}
